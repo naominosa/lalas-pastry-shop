@@ -1,5 +1,5 @@
 import SafeImage from "./SafeImage";
-import { BUSINESS_NAME, LOGO_SRC } from "@/data/config";
+import { BUSINESS_NAME} from "@/data/config";
 
 export default function Logo({
   className = "",
