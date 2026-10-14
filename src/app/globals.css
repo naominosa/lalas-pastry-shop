@@ -78,3 +78,12 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .bob { animation: none; }
 }
+
+/* Makes the logo bolder: stronger colours and a cream outline so dark parts stay readable on brown */
+.logo-pop {
+  filter:
+    contrast(1.15) saturate(1.2)
+    drop-shadow(2px 0 0 #fff4ec) drop-shadow(-2px 0 0 #fff4ec)
+    drop-shadow(0 2px 0 #fff4ec) drop-shadow(0 -2px 0 #fff4ec)
+    drop-shadow(0 6px 10px rgba(0, 0, 0, 0.35));
+}
